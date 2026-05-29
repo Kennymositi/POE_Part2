@@ -99,15 +99,17 @@ namespace POE_Part2
 
                 if (answers_found.Count > 0)
                 {
+
                     topicMessage = answers_found[0];
 
                     int firstSpace = topicMessage.IndexOf(' ');
 
-                    if (firstSpace >= 0)
-                    {
-                        topicMessage =
-                            topicMessage.Substring(firstSpace + 1);
+                    if (firstSpace >= 0) {
+
+                        topicMessage = topicMessage.Substring(firstSpace + 1);
+
                     }
+
                 }
 
                 string finalMessage = "";
@@ -117,11 +119,9 @@ namespace POE_Part2
                     finalMessage += sentimentMessage + "\n";
                 }
 
-                if (!string.IsNullOrWhiteSpace(topicMessage))
-                {
+                if (!string.IsNullOrWhiteSpace(topicMessage)) {
                     finalMessage += topicMessage;
                 }
-
                 return finalMessage.Trim();
             }
             else
