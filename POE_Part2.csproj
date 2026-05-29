@@ -55,7 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AI_Check.cs" />
+    <Compile Include="cyberkore_engine.cs" />
     <Compile Include="Clean_input.cs" />
     <Compile Include="Interest_handler.cs" />
     <Compile Include="respond.cs" />

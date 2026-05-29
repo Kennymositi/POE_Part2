@@ -5,14 +5,14 @@ using System.Linq;
 
 namespace POE_Part2
 {//start of namesace
-    public class AI_Check
+    public class cyberkore_engine
     {//start of class
 
 
         ArrayList reply = new ArrayList();
         ArrayList ignore = new ArrayList();
 
-        public AI_Check(ArrayList replies, ArrayList ignores)
+        public cyberkore_engine(ArrayList replies, ArrayList ignores)
         {//start of constructor
             reply = replies;
             ignore = ignores;
